@@ -6,6 +6,7 @@ extension DateExtension on String {
     final hour = this.substring(8, 10).toString();
     final minute = this.substring(10, 12).toString();
     final second = this.substring(12, 14).toString();
+
     return "$month/$date/$year  $hour:$minute:$second";
   }
 }
